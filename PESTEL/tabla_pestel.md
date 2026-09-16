@@ -1,0 +1,8 @@
+| Dimensión | Factor | Relación |
+| :---: | :--- | :--- |
+| **P** | Políticas y procedimientos institucionales para la atención de solicitudes. | Las decisiones de la institución sobre cómo se reciben y gestionan las solicitudes pueden condicionar el funcionamiento del sistema y los responsables de cada trámite. |
+| **E** | Disponibilidad de recursos para implementar y mantener el sistema. | La institución necesitaría recursos para desarrollar, mantener y dar soporte a una herramienta de gestión de solicitudes. |
+| **S** | Preferencia de los estudiantes por diferentes canales de atención. | Los estudiantes actualmente utilizan diferentes medios, como correo, formularios, atención presencial y mensajes. Un cambio hacia un único sistema podría encontrar resistencia o afectar la adopción. |
+| **T** | Disponibilidad y confiabilidad de infraestructura tecnológica. | El sistema depende de infraestructura tecnológica que permita registrar, consultar, actualizar y hacer seguimiento a las solicitudes. Una falla tecnológica podría afectar la atención. |
+| **E** | Reducción del uso de documentos físicos. | Una gestión digital de las solicitudes podría disminuir la necesidad de impresiones y documentos físicos, aunque este aspecto no parece ser central en el problema identificado. |
+| **L** | Protección y manejo de los datos de los estudiantes. | Las solicitudes pueden contener información personal y académica, por lo que el sistema debe considerar las condiciones legales relacionadas con el tratamiento y protección de dicha información. |
