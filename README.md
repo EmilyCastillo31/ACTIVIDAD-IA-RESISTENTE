@@ -1,2 +1,27 @@
 # Analisis de Sistemas
 ## Sistemas de atencion de solicitud de estudiantes
+# Sistema de Atención de Solicitudes Estudiantiles
+
+**Equipo:** Scrum Squad
+**Integrantes:** 
+* Paula Camila Hurtado
+* Samuel Julián Castillo
+* Emily Sofia Castillo
+* Santiago Abella Bello
+* Juan Miguel Tapiero Gutiérrez
+
+## Problema Analizado
+Los estudiantes enfrentan incertidumbre por la falta de visibilidad sobre el estado de sus solicitudes académicas. Esto genera una sobrecarga operativa de consultas para la Secretaría de Coordinación, por lo que se requiere un sistema que centralice y transparente el seguimiento del trámite para el usuario final.
+## Enlace a Evidencias
+A continuación, se presentan los enlaces directos a los directorios con los documentos y soportes de cada fase de nuestro análisis:
+
+* [Unidad 1: Stakeholders](./01-stakeholders/)
+* [Unidad 2: Análisis PESTEL](./02-pestel/)
+* [Unidad 3: Pain Points](./03-pain-points/)
+* [Unidad 4: Problem / Solution Fit](./04-problem-solution-fit/)
+* [Unidad 5: Lean Canvas](./05-lean-canvas/)
+* [Unidad 6: Uso de IA Resistente (Prompts y Decisiones)](./06-ia/)
+* [Unidad 7: Defensa](./07-defensa/)
+
+## Síntesis de la Decisión Final
+*(Aquí escriben un párrafo corto explicando cuál fue la gran conclusión del equipo después de analizar a los stakeholders, el entorno y usar la IA. Ej: "Decidimos enfocarnos en el problema X porque impacta directamente a Y, y descubrimos gracias a la IA que...")*
