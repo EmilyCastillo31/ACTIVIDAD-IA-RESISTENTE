@@ -15,10 +15,10 @@ Los estudiantes enfrentan incertidumbre por la falta de visibilidad sobre el est
 ## Enlace a Evidencias
 A continuación, se presentan los enlaces directos a los directorios con los documentos y soportes de cada fase de nuestro análisis:
 
-* [Unidad 1: Stakeholders](./01-stakeholders/)
-* [Unidad 2: Análisis PESTEL](./02-pestel/)
-* [Unidad 3: Pain Points](./03-pain-points/)
-* [Unidad 4: Problem / Solution Fit](./04-problem-solution-fit/)
+* [Unidad 1: Stakeholders](./01-Stakeholders/)
+* [Unidad 2: Análisis PESTEL](./02-PESTEL/)
+* [Unidad 3: Pain Points](./03-Pain-Points/)
+* [Unidad 4: Problem / Solution Fit](./04-Problem-Solution-Fit/)
 * [Unidad 5: Lean Canvas](./05-lean-canvas/)
 * [Unidad 6: Uso de IA Resistente (Prompts y Decisiones)](./06-ia/)
 * [Unidad 7: Defensa](./07-defensa/)
