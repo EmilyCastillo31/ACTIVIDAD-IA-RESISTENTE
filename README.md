@@ -23,5 +23,4 @@ A continuación, se presentan los enlaces directos a los directorios con los doc
 * [Unidad 6: Uso de IA Resistente (Prompts y Decisiones)](./06-ia/)
 * [Unidad 7: Defensa](./07-defensa/)
 
-## Síntesis de la Decisión Final
-*(Aquí escriben un párrafo corto explicando cuál fue la gran conclusión del equipo después de analizar a los stakeholders, el entorno y usar la IA. Ej: "Decidimos enfocarnos en el problema X porque impacta directamente a Y, y descubrimos gracias a la IA que...")*
+
