@@ -5,7 +5,7 @@ Resumen de las propuestas de la IA que influyeron en el análisis. Se recomienda
 | **Fase** | **Ciclo** | **Fecha** | **Herramienta** | **Estado** |   
 | 1. Stakeholders | 1 — Generar | 15/09/2026 | Gemini | Registrado abajo |   
 | 1. Stakeholders | 2 — Criticar | 15/09/2026 | Gemini | Registrado abajo |   
-| 2. PESTEL | 1, 2 y 3 | **[COMPLETAR]** | **[COMPLETAR]** | A cargo de la Unidad 2 |   
+| 2. PESTEL | 1, 2 y 3 | 16/09/2026 | Claude | A cargo de la Unidad 2 |   
 | 3. Pain Points | 1, 2 y 3 | **[COMPLETAR]** | **[COMPLETAR]** | Pendiente |   
 | 4. Problem/Solution Fit | 1, 2 y 3 | **[COMPLETAR]** | **[COMPLETAR]** | A cargo de la Unidad 4 |   
 | 5. Lean Canvas | 1 — Generar | **[COMPLETAR]** | **[COMPLETAR]** | Resumen abajo |   
