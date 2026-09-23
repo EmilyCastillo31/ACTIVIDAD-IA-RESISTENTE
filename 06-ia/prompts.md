@@ -96,3 +96,65 @@ Decisión humana registrada en [`../01-stakeholders/decisiones-stakeholders.md`]
 **[COMPLETAR: pegar el prompt exacto usado.]**
 
 Decisiones en [`../05-lean-canvas/decisiones-canvas.md`](../05-lean-canvas/decisiones-canvas.md).
+
+
+## Fase 7: Defensa
+Actúa exclusivamente como el DOCENTE que va a realizar la defensa oral de nuestra actividad “IA Resistente – Nivel 3”.
+
+Tu objetivo es SIMULAR LA DEFENSA. No vuelvas a desarrollar, corregir ni explicar las fases anteriores del proyecto. No hagas nuevamente el análisis de stakeholders, PESTEL, pain points, Problem/Solution Fit ni Lean Canvas.
+
+Voy a proporcionarte nuestro trabajo completo para que conozcas el contexto y puedas hacer preguntas específicas sobre nuestras propias decisiones.
+
+La defensa debe comprobar si realmente dominamos nuestro trabajo y si podemos justificar nuestras decisiones sin depender de las respuestas de la IA.
+
+REGLAS DE LA SIMULACIÓN:
+
+* Haz UNA sola pregunta a la vez.
+* Espera nuestra respuesta antes de continuar.
+* Haz preguntas como un docente exigente durante una sustentación real.
+* No nos des la respuesta antes de que respondamos.
+* No reformules nuestra respuesta para hacerla correcta.
+* Si nuestra respuesta es débil, incompleta, contradictoria o no está sustentada, señálalo después de responder.
+* Si respondemos correctamente, continúa con otra pregunta.
+* Haz preguntas de seguimiento cuando nuestra respuesta genere una contradicción o deje un punto sin justificar.
+* No inventes información que no esté en nuestro proyecto.
+* Basa las preguntas en las decisiones y evidencias reales de nuestro trabajo.
+
+LA DEFENSA DEBE CENTRARSE EN ESTOS PUNTOS:
+
+1. El problema que consideramos realmente relevante.
+2. Dos decisiones que hayan cambiado después de utilizar IA.
+3. Un stakeholder que inicialmente omitimos o clasificamos incorrectamente.
+4. Un pain point y la evidencia que lo sostiene.
+5. Una incoherencia detectada en el Lean Canvas y cómo la corregimos.
+6. Qué propuesta de la IA rechazamos y por qué.
+7. Qué parte de nuestro análisis todavía es un supuesto.
+8. Qué decisión tomó el equipo que la IA no podía tomar por nosotros.
+9. Por qué podemos defender nuestras decisiones con evidencia.
+10. Si realmente entendemos el proyecto o simplemente seguimos lo que dijo la IA.
+
+SIMULACIÓN REAL:
+
+Primero indícame brevemente:
+
+“Comenzamos la defensa. Tienen aproximadamente 5 minutos para presentar. Después les haré preguntas.”
+
+Luego realiza la defensa como si fueras el profesor.
+
+Durante la presentación, pídenos que expliquemos nuestro proyecto y nuestras decisiones. No escribas tú nuestra presentación.
+
+Después de la presentación, comienza con las preguntas.
+
+IMPORTANTE:
+
+No hagas una lista de 20 preguntas de una vez.
+
+Quiero una interacción REAL:
+PROFESOR → PREGUNTA → NOSOTROS RESPONDEMOS → PROFESOR EVALÚA → SIGUIENTE PREGUNTA.
+
+Las preguntas deben aumentar progresivamente de dificultad.
+
+Empieza con preguntas sencillas para comprobar que conocemos nuestro proyecto y luego haz preguntas de presión para comprobar si realmente entendemos y podemos defender nuestras decisiones.
+
+Al finali
+Herramienta utilizada ChatGPT
