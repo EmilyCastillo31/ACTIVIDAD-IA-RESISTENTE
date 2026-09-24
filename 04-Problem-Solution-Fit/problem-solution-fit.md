@@ -1,57 +1,98 @@
-# Problem/Solution Fit
 
-## 1. Problema validado
+# Problem/Solution Fit (Fase 4)
 
-Los pacientes adultos mayores (60+) de la IPS no logran completar el agendamiento
-de citas médicas por la app debido a una interfaz poco accesible para su nivel de
-familiaridad tecnológica, lo que los obliga a saturar la línea telefónica,
-generando demoras en la atención para todos los pacientes.
+## 1. Contexto
 
-## 2. Afectados (stakeholders relacionados)
+El sistema de información seleccionado es un sistema de gestión de solicitudes estudiantiles.
 
-- **Pacientes adultos mayores** (primario): no logran agendar por su cuenta.
-- **Personal administrativo/recepción** (primario): recibe la sobrecarga de
-  llamadas y reclamos.
-- **Médicos** (secundario): ven agendas mal distribuidas por citas mal gestionadas.
-- **Coordinación de EPS** (clave/decisor): responde por indicadores de servicio
-  y quejas ante el ente regulador.
+El análisis se concentra en comprender las dificultades de seguimiento y visibilidad que pueden experimentar los stakeholders.
 
-## 3. Cómo el sistema debería cambiar/mejorar
+## 2. Problema identificado
 
-Se plantea rediseñar el flujo de agendamiento para incluir un modo simplificado
-(menos pasos, texto más grande, opción de asistencia guiada o agendamiento
-asistido por un tercero autorizado), sin eliminar el canal telefónico, pero
-reduciendo su saturación al resolver la causa raíz del problema en la app.
+Los estudiantes pueden tener dificultades para conocer el estado y avance de sus solicitudes académicas, lo que genera incertidumbre y la necesidad de realizar consultas para obtener información sobre sus trámites.
 
-## 4. Formulaciones alternativas generadas por IA (Ciclo 1 — Generar)
+## 3. Stakeholders afectados
 
-| # | Formulación | Estado |
-|---|---|---|
-| A | Los pacientes adultos mayores no pueden agendar citas médicas por la app | ✅ Adoptada (con ajuste) |
-| B | El proceso de agendamiento no está diseñado para usuarios con baja alfabetización digital | ⚠️ Parcialmente incorporada |
-| C | La IPS no tiene un canal de agendamiento accesible para todos los segmentos de pacientes | ❌ Rechazada |
+- Estudiante.
+- Secretaría de Coordinación.
+- Coordinador del Proyecto Curricular.
+- Otras áreas involucradas, según la evidencia validada.
 
-## 5. Intervención humana (Ciclo 2–3 — Criticar y Decidir)
+## 4. Formulaciones alternativas
 
-- **Qué verificamos:** registros de quejas de recepción, confirmando que ~80%
-  de los reclamos por "no pude agendar" provienen de pacientes mayores de 60 años.
-- **Qué rechazamos:** la formulación C, por ser institucional y no accionable
-  (no orienta ningún rediseño concreto).
-- **Qué modificamos:** se tomó la especificidad de A y se incorporó parcialmente
-  el enfoque de "accesibilidad" de B, pero acotado al segmento con evidencia real.
-- **Decisión final:** formulación combinada (ver sección 1), justificada por ser
-  específica, verificable con datos existentes y con relación causal clara al
-  problema de saturación telefónica.
-- **Reflexión:** la IA tendía a generalizar el problema (formulación B y C) para
-  sonar más "escalable", pero eso diluía la evidencia real que teníamos. El
-  equipo aportó el contraste con los datos de quejas, algo que la IA no podía
-  verificar por sí sola.
+### Alternativa 1: Enfoque en el estudiante
 
-## 6. Comparación de formulaciones (evidencia GitHub requerida)
+#### Problema: 
+Los estudiantes pueden tener dificultades para conocer el estado y avance de sus solicitudes académicas, lo que genera incertidumbre y la necesidad de realizar consultas para obtener información sobre sus trámites.
 
-| Criterio              | A                        | B                                             | C                                        |
-|-----------------------|--------------------------|-----------------------------------------------|------------------------------------------|
-| Evidencia disponible  | Alta (quejas por edad)  | Media (sin dato de "alfabetización digital") | Baja (comparación difusa entre canales) |
-| Accionabilidad        | Alta                     | Media                                          | Baja                                     |
-| Alcance               | Acotado y realista       | Amplio pero no sustentado                     | Institucional, no operativo             |
-| Elegida               | ✅                       | Parcial                                        | ❌                                        |
+#### Afectados:
+Estudiantes y Secretaría de Coordinación.
+
+#### Cómo podría mejorar:
+Facilitar el acceso a información clara y actualizada sobre el estado de las solicitudes.
+
+### Alternativa 2 Enfoque en el proceso
+
+#### Problema: 
+La gestión de solicitudes estudiantiles puede presentar dificultades de seguimiento y coordinación entre las áreas involucradas, especialmente cuando la información del trámite no se encuentra disponible de forma clara y organizada.
+
+#### Afectados: 
+Secretaría de Coordinación, Coordinador del Proyecto Curricular y Admisiones y Registro.
+
+#### Cómo podría mejorar: 
+Favorecer la continuidad del proceso y el intercambio de información entre las áreas participantes.
+
+### Alternativa 3: Enfoque en la trazabilidad
+
+#### Problema: 
+La falta de evidencia suficiente sobre el registro, seguimiento y estado de las solicitudes estudiantiles puede dificultar la identificación oportuna de problemas y la coordinación de las decisiones entre los responsables del trámite.
+
+#### Afectados: 
+Estudiantes, Secretaría de Coordinación, Coordinador, Admisiones y Registro, y potencialmente TI.
+
+#### Cómo podría mejorar: 
+Aumentar la trazabilidad de los trámites y facilitar la identificación de situaciones que requieran atención.
+
+## 5. Comparación
+
+Se compararon las alternativas considerando claridad, evidencia, alcance, stakeholders y supuestos.
+
+
+### Comparación de formulaciones del problema
+
+| Criterio | Alternativa 1 | Alternativa 2 | Alternativa 3 |
+|---|---|---|---|
+| Claridad | Se enfoca directamente en la experiencia del estudiante | Se enfoca en la coordinación del proceso | Se enfoca en el seguimiento y la trazabilidad |
+| Stakeholders | Estudiante y Secretaría | Áreas responsables del trámite | Varios actores del proceso |
+| Evidencia requerida | Consultas, quejas y dificultades de visibilidad | Flujo del proceso y coordinación entre áreas | Registros, seguimiento y casos de pérdida o duplicidad |
+| Alcance | Centrado en el acceso a información | Más amplio, involucra el proceso completo | Centrado en la capacidad de rastrear y supervisar |
+| Riesgo de suposición | Presupone dificultades de acceso | Presupone problemas de coordinación | Presupone deficiencias de trazabilidad |
+| Validación necesaria | Confirmar frecuencia e impacto | Identificar dificultades concretas del proceso | Comprobar qué registros existen y qué fallas se presentan |
+
+
+## 6. Formulación seleccionada
+
+### Alternativa 1: Enfoque en el estudiante
+
+Los estudiantes pueden tener dificultades para conocer el estado y avance de sus solicitudes académicas, lo que genera incertidumbre y la necesidad de realizar consultas para obtener información sobre sus trámites.
+
+## 7. Justificación de la decisión humana
+
+El equipo decidió seleccionar la primera alternativa porque tiene un enfoque directo en los estudiantes, quienes son los principales usuarios del sistema y con quienes tenemos mayor cercanía al formar parte de la comunidad estudiantil.
+
+Nuestra experiencia como estudiantes nos permite reconocer que las dificultades para conocer el estado de una solicitud académica pueden generar incertidumbre y la necesidad de realizar consultas para obtener información. Esta cercanía nos ayuda a comprender mejor la situación desde la perspectiva del usuario.
+
+Además, consideramos que esta formulación permite delimitar el problema de manera clara, centrándose en la necesidad de visibilidad y seguimiento de las solicitudes, sin asumir una solución técnica antes de analizar las causas del problema.
+
+Sin embargo, reconocemos que nuestra experiencia personal no es suficiente para demostrar que la situación afecta a todos los estudiantes. Por esta razón, es necesario validar el pain point mediante evidencia, como entrevistas, encuestas u observaciones del proceso, para determinar su frecuencia, impacto y alcance real.
+
+## 8. Supuestos y validaciones pendientes
+
+- Validar la frecuencia de las consultas de los estudiantes.
+- Confirmar si existen problemas de pérdida o duplicidad de solicitudes.
+- Identificar las dificultades concretas en la coordinación del proceso.
+- Verificar el alcance de las áreas que participan en el trámite.
+
+## 9. Relación con el PESTEL
+
+Los factores PESTEL se utilizarán como contexto para analizar las condiciones que pueden afectar el sistema. Los factores que no cuenten con evidencia suficiente se mantendrán como supuestos pendientes de validación.
