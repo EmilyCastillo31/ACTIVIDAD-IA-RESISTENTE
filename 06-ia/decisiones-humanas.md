@@ -13,7 +13,36 @@ Tabla consolidada **IA propone → equipo verifica → evidencia → decisión f
 
 ## Fase 2 — PESTEL
 
-**[COMPLETAR por quienes desarrollan la Unidad 2.]**
+# Análisis PESTEL
+
+El análisis PESTEL permite identificar factores externos que pueden influir en el sistema de gestión de solicitudes estudiantiles. Las propuestas generadas por la IA fueron revisadas por el equipo y clasificadas según la evidencia disponible en el caso.
+
+| Factor PESTEL | IA propone | Qué verificamos | Decisión del equipo | Razón |
+|---|---|---|---|---|
+| **Político** | Existencia de políticas y procedimientos institucionales que pueden influir en la gestión de solicitudes. | El sistema debe funcionar de acuerdo con los procedimientos establecidos por la institución. | **Aceptar como factor a considerar** | Las decisiones y trámites académicos dependen de procedimientos institucionales. |
+| **Económico** | Los procesos manuales pueden generar costos asociados al tiempo del personal y al reproceso de solicitudes. | No se cuenta con información concreta sobre costos económicos actuales. | **Modificar** | Se mantiene como posible impacto operativo, pero no se presenta como un costo comprobado. |
+| **Social** | Preferencia de los usuarios por diferentes canales de atención y posible resistencia al cambio. | El caso indica la existencia de diferentes canales y la necesidad de considerar la adaptación de los usuarios. | **Aceptar** | Está directamente relacionado con la forma en que los estudiantes y funcionarios interactúan con el proceso. |
+| **Tecnológico** | La infraestructura tecnológica puede afectar el funcionamiento del sistema. | No existe evidencia suficiente de fallas tecnológicas actuales en el caso. | **Modificar** | Se considera una condición que debe verificarse, pero no se afirma que actualmente exista una falla tecnológica. |
+| **Ambiental** | Reducción del uso de papel mediante la digitalización de las solicitudes. | El uso de papel no aparece como un problema central del caso. | **Rechazar** | No se identifica como un factor que condicione significativamente el problema principal analizado. |
+| **Legal** | Protección de los datos personales y de la información de los estudiantes. | Es necesario verificar las normas institucionales y legales aplicables al manejo de información estudiantil. | **Pendiente de verificar** | Es un factor relevante, pero el caso suministrado no contiene suficiente información normativa para afirmarlo como una condición específica. |
+
+## Decisiones humanas frente a las propuestas de IA
+
+El equipo no tomó todas las propuestas de la IA como hechos. Se revisó si cada factor tenía relación directa con el caso y si existía evidencia suficiente para sostenerlo.
+
+En particular, los factores tecnológico y económico fueron modificados porque pueden ser relevantes para el sistema, pero no existen evidencias suficientes para afirmar que actualmente existan fallas tecnológicas o costos económicos específicos.
+
+El factor ambiental fue rechazado debido a que la reducción del uso de papel no constituye un problema central dentro del caso analizado.
+
+El factor legal quedó pendiente de verificación porque la protección de los datos estudiantiles es relevante, pero se requiere consultar la normativa correspondiente antes de establecer conclusiones.
+
+## Aspectos pendientes de validación
+
+- Verificar las políticas y procedimientos institucionales relacionados con las solicitudes.
+- Validar si existen costos o tiempos significativos asociados al reproceso de solicitudes.
+- Verificar las condiciones actuales de la infraestructura tecnológica.
+- Consultar las normas aplicables al tratamiento y protección de los datos de los estudiantes.
+- Validar con los usuarios si existe resistencia al cambio o preferencia por determinados canales de atención.
 
 ## Fase 3 — Pain Points
 
@@ -21,11 +50,104 @@ Tabla consolidada **IA propone → equipo verifica → evidencia → decisión f
 | :--- | :--- | :--- | :--- | :--- |
 | **Pain points de TI (PP-07) y Bienestar (PP-08)**, derivados de los stakeholders propuestos por la IA | Si el caso da evidencia directa de fallas técnicas o del proceso de trámites excepcionales. | El caso menciona duplicidad reportada por funcionarios, pero no fallas técnicas ni el proceso excepcional. | **Mantener solo como hipótesis pendiente de validación** | No hay evidencia directa. |
 
-**[COMPLETAR: agregar aquí otras propuestas de IA que se hayan rechazado o modificado en esta fase, si las hubo.]**
+### Decisiones adicionales sobre los Pain Points
+
+Durante esta fase, el equipo revisó los pain points propuestos por la IA y los contrastó con la evidencia disponible en el caso y con los stakeholders identificados.
+
+La IA propuso pain points relacionados principalmente con TI / Soporte y Bienestar Estudiantil. Sin embargo, el equipo determinó que estos no podían presentarse como problemas confirmados, debido a que no existe evidencia directa suficiente sobre fallas técnicas o sobre dificultades específicas en el proceso de trámites excepcionales.
+
+Por esta razón, los pain points de TI y Bienestar se mantienen únicamente como hipótesis pendientes de validación.
+
+En el caso del estudiante, se mantiene como pain point principal la necesidad de conocer el estado y avance de sus solicitudes, debido a que este se relaciona directamente con la regla del sistema identificada en la fase de stakeholders: el estudiante necesita visibilidad sobre su trámite.
+
+Además, se evita presentar las solicitudes perdidas o duplicadas como hechos comprobados. Estas situaciones se consideran hipótesis que requieren ser cuantificadas y verificadas mediante evidencia adicional.
+
 
 ## Fase 4 — Problem/Solution Fit
 
-**[COMPLETAR por quienes desarrollan la Unidad 4.]**
+### 1. Problema identificado
+
+Los estudiantes pueden tener dificultades para conocer el estado y avance de sus solicitudes académicas, lo que puede generar incertidumbre y la necesidad de realizar consultas para obtener información sobre sus trámites.
+
+Este problema se relaciona con el principal pain point identificado para el estudiante: la necesidad de visibilidad sobre el estado de su solicitud.
+
+### 2. Stakeholders afectados
+
+Los principales stakeholders relacionados con el problema son:
+
+- **Estudiante:** Es el usuario principal y necesita conocer el estado de su solicitud.
+- **Secretaría de Coordinación:** Puede recibir consultas relacionadas con el estado de las solicitudes y necesita visibilidad para informar al estudiante y organizar el flujo.
+- **Coordinador del Proyecto Curricular:** Es responsable de evaluar y aprobar o rechazar las solicitudes académicas.
+- **Oficina de Admisiones y Registro:** Ejecuta a nivel central y legal las decisiones aprobadas por la coordinación.
+
+Otros stakeholders, como TI / Soporte y Bienestar Estudiantil, pueden participar en situaciones específicas, pero sus pain points se mantienen como hipótesis pendientes de validación.
+
+### 3. Formulaciones alternativas del problema
+
+#### Alternativa 1 — Enfoque en el estudiante
+
+Los estudiantes pueden tener dificultades para conocer el estado y avance de sus solicitudes académicas, lo que genera incertidumbre y la necesidad de realizar consultas para obtener información sobre sus trámites.
+
+#### Alternativa 2 — Enfoque en el proceso
+
+La gestión de solicitudes estudiantiles puede presentar dificultades de seguimiento y coordinación entre las áreas involucradas, especialmente cuando la información del trámite no se encuentra disponible de forma clara y organizada.
+
+#### Alternativa 3 — Enfoque en la trazabilidad
+
+La falta de información suficiente sobre el registro, seguimiento y estado de las solicitudes estudiantiles puede dificultar la identificación oportuna de problemas y la coordinación de las decisiones entre los responsables del trámite.
+
+### 4. Comparación de alternativas
+
+| Criterio | Alternativa 1 | Alternativa 2 | Alternativa 3 |
+|---|---|---|---|
+| Enfoque principal | Estudiante | Proceso institucional | Trazabilidad |
+| Relación con stakeholders | Directamente relacionada con el usuario principal | Involucra varias áreas | Involucra varios responsables |
+| Relación con pain points | Se relaciona directamente con PP-01 | Requiere validar dificultades de coordinación | Requiere validar problemas de registro |
+| Evidencia disponible | Existe una necesidad de visibilidad identificada | Se necesita mayor evidencia sobre la coordinación | Se necesita mayor evidencia sobre la trazabilidad |
+| Alcance | Más delimitado | Más amplio | Centrado en el seguimiento |
+| Supuestos | Necesita validar frecuencia e impacto | Necesita validar cómo funciona actualmente el proceso | Necesita comprobar posibles deficiencias de registro |
+
+### 5. Formulación seleccionada
+
+El equipo seleccionó la **Alternativa 1, centrada en el estudiante**.
+
+La formulación seleccionada es:
+
+> Los estudiantes pueden tener dificultades para conocer el estado y avance de sus solicitudes académicas, lo que genera incertidumbre y la necesidad de realizar consultas para obtener información sobre sus trámites.
+
+### 6. Justificación de la decisión humana
+
+El equipo decidió seleccionar la primera alternativa porque tiene un enfoque directo en los estudiantes, quienes son los principales usuarios del sistema y con quienes tenemos mayor cercanía al formar parte de la comunidad estudiantil.
+
+Nuestra experiencia como estudiantes nos permite comprender de manera más cercana situaciones en las que una persona necesita conocer qué está ocurriendo con una solicitud académica y no cuenta con suficiente información sobre su estado.
+
+Además, esta alternativa se relaciona directamente con el pain point principal identificado para el estudiante: la necesidad de visibilidad sobre el estado de su trámite.
+
+Consideramos que esta formulación permite delimitar el problema de manera clara y evita ampliar innecesariamente el alcance hacia problemas de coordinación o de trazabilidad que todavía requieren mayor evidencia.
+
+La Alternativa 2 fue descartada porque tiene un alcance más amplio y requiere validar con mayor profundidad cómo se coordinan actualmente las diferentes áreas involucradas en el proceso.
+
+La Alternativa 3 fue descartada porque depende de confirmar deficiencias relacionadas con el registro y la trazabilidad de las solicitudes. Aunque pueden existir solicitudes perdidas o duplicadas según el contexto del caso, el equipo decidió no presentarlas como hechos comprobados mientras no exista suficiente evidencia para demostrar su frecuencia e impacto.
+
+### 7. Cómo el sistema podría cambiar o mejorar la situación
+
+A partir del problema identificado, el sistema podría contribuir a mejorar la visibilidad que tienen los estudiantes sobre el estado de sus solicitudes y facilitar el seguimiento del trámite.
+
+Esta mejora también podría beneficiar a las áreas involucradas, ya que una mayor visibilidad del estado de las solicitudes podría facilitar la comunicación con los estudiantes y el seguimiento interno.
+
+En esta fase no se define todavía una solución técnica específica. El objetivo es establecer con claridad el problema y los afectados antes de determinar las características o tecnologías que debería tener el sistema.
+
+### 8. Supuestos y aspectos pendientes de validación
+
+El equipo reconoce que todavía existen aspectos que requieren validación:
+
+- Frecuencia con la que los estudiantes consultan el estado de sus solicitudes.
+- Impacto real de la falta de visibilidad.
+- Existencia y frecuencia de solicitudes perdidas o duplicadas.
+- Dificultades reales de coordinación entre las áreas.
+- Participación concreta de TI y Bienestar Estudiantil en los diferentes tipos de solicitudes.
+
+Por lo tanto, estos aspectos no se presentan como hechos definitivos, sino como hipótesis o puntos pendientes de investigación.
 
 ## Fase 5 — Lean Canvas
 
